@@ -5,7 +5,7 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  background-color: lightgrey;
+  background-color: #F6F8F9;
 
 }
 
@@ -33,16 +33,32 @@ header {
   width: 800px;
   height: 500px;
   margin: 40px auto;
-  padding: 10px 40px;
+
   box-sizing: border-box;
-  background-color: aliceblue;
+  background-color: white;
 
 }
 
-.button-container {}
+#button-row {
+  border-bottom: 1px solid #F6F8F9;
+}
+
+#button-container {
+
+  padding-top: 12px;
+  padding-bottom: 16px;
+  padding-left: 40px;
+
+
+}
+
 
 button {
-  border: lightgrey solid;
+  border: solid rgb(190, 190, 190);
   border-radius: 10%;
-  padding: 3px;
+  padding: 4px;
+}
+
+#button-1 {
+  background-color: #47ADF1;
 }
