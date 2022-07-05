@@ -40,7 +40,7 @@ header {
 }
 
 #button-row {
-  border-bottom: 1px solid #F6F8F9;
+  border-bottom: 2px solid #F6F8F9;
 }
 
 #button-container {
@@ -54,11 +54,74 @@ header {
 
 
 button {
-  border: solid rgb(190, 190, 190);
+  border: 1px solid rgb(190, 190, 190);
   border-radius: 10%;
   padding: 4px;
 }
 
 #button-1 {
   background-color: #47ADF1;
+}
+
+#button-2 {
+  background-color: #FFF;
+}
+
+#task-container {
+  padding: 40px;
+
+}
+
+.checkmark {
+  display: inline-block;
+  border: 1px solid green;
+  border-radius: 50%;
+  padding: 2px;
+  color: green;
+}
+
+.cross {
+  display: inline-block;
+  border: 1px solid red;
+  border-radius: 50%;
+  padding: 2px;
+  color: red;
+}
+
+.tag-editorial {
+  background-color: #45ABEA;
+}
+
+.tag-q1-goals {
+  background-color: #9C72E4;
+}
+
+.tag-recruiting {
+  background-color: #64C0A9;
+}
+
+.tag-mobile {
+  background-color: #F29E33;
+}
+
+.tag-website {
+  background-color: #D863A1;
+}
+
+.tag-sales {
+  background-color: #B0C926;
+}
+
+.tag-editorial,
+.tag-q1-goals,
+.tag-recruiting,
+.tag-mobile,
+.tag-website,
+.tag-sales {
+  border: 1px solid;
+  border-radius: 25%;
+  padding: 4px;
+  color: white;
+  font-size: 12px;
+
 }
